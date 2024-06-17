@@ -1,0 +1,8 @@
+# phone_book.py
+class PhoneBook:
+    def _init_(self):
+        self.contacts = {}
+    def add_contact(self, name, phone_number):
+        self.contacts[name] = phone_number
+        print(f"Contact {name} added with phone number {phone_number}")
+
